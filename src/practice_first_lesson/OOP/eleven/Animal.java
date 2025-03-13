@@ -7,9 +7,9 @@ class Animal {
     double weight; // вес
     double height; // рост
 
-    static final int AGE = 5;
-    static final double WEIGHT = 2;
-    static final double HEIGHT = 20;
+    public static final int AGE = 5;
+    public static final double WEIGHT = 2;
+    public static final double HEIGHT = 20;
 
     public Animal() {
         this.name = "Ничего";
