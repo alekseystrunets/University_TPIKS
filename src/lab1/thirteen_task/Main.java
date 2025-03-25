@@ -4,7 +4,7 @@ import java.util.Random;
 
 public class Main {
     public static void main(String[] args) {
-        int N = 5;
+        int N = 4;
         int M = 4;
         int[][] matrix = new int[N][M];
         Random rand = new Random();
@@ -22,7 +22,7 @@ public class Main {
             int maxIndex = 0;
             int minIndex = 0;
 
-            for (int j = 0; j < M; j++) {
+            for (int j = 1; j < M; j++) {
                 if (matrix[i][j] > matrix[i][maxIndex]) {
                     maxIndex = j;
                 }
@@ -32,15 +32,15 @@ public class Main {
             }
 
             if (maxIndex != 0) {
-                int temp = matrix[i][0];
-                matrix[i][0] = matrix[i][maxIndex];
-                matrix[i][maxIndex] = temp;
+                int tempMax = matrix[i][maxIndex];
+                matrix[i][maxIndex] = matrix[i][0];
+                matrix[i][0] = tempMax;
             }
 
             if (minIndex != M - 1) {
-                int temp = matrix[i][M - 1];
-                matrix[i][M - 1] = matrix[i][minIndex];
-                matrix[i][minIndex] = temp;
+                int tempMin = matrix[i][minIndex];
+                matrix[i][minIndex] = matrix[i][M - 1];
+                matrix[i][M - 1] = tempMin;
             }
         }
 

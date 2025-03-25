@@ -13,6 +13,7 @@ class Student {
         this.avMark = averageMark;
     }
 
+
     public double getAvMark() {
         return avMark;
     }

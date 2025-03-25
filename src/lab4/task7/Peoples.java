@@ -11,6 +11,8 @@ public class Peoples {
 
     private static Thread[] peoples = new Thread[NUM_PHILOSOPHERS];
 
+
+
     public static void main(String[] args) {
 
         for (int i = 0; i < NUM_PHILOSOPHERS; i++) {
