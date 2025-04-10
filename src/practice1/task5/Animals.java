@@ -1,4 +1,4 @@
-package practice.task5;
+package practice1.task5;
 
 class Animals {
     private double weight;

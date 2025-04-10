@@ -1,4 +1,4 @@
-package practice.task6;
+package practice1.task6;
 
 class Dog extends Animals {
     private String breed;

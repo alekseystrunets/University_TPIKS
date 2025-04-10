@@ -1,4 +1,4 @@
-package practice.task6;
+package practice1.task6;
 
 abstract class Animals {
     private double weight;

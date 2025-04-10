@@ -1,4 +1,4 @@
-package practice.task1;
+package practice1.task1;
 
 class Cat extends Animals {
     private int miceCaught;

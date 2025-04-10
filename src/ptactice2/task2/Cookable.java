@@ -1,4 +1,5 @@
 package ptactice2.task2;
 
-public interface Interface {
+ interface Cookable {
+    void cook(String str);
 }

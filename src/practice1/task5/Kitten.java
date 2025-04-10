@@ -1,4 +1,4 @@
-package practice.task5;
+package practice1.task5;
 
 class Kitten extends Cat {
     private String feedingTime;

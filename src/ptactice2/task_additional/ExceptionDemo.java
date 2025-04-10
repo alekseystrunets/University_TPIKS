@@ -1,4 +1,4 @@
-package ptactice2.task2;
+package ptactice2.task_additional;
 
 public class ExceptionDemo {
     public static void main(String[] args) {
